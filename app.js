@@ -6,6 +6,9 @@ app.use(express.json());
 //Conexão com o banco
 const sequelize = require("./src/database/connection.js");
 
+//Models
+const Models = require('./src/models/QuartoModels.js');
+
 const port = 3000;
 
 app.get("/teste", (req, res) => {
