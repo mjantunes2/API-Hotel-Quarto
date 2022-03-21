@@ -18,9 +18,9 @@ app.use('/quartos', QuartoRoutes);
 const port = 3000;
 
 //Teste para ver se o servidor está sendo criado
-app.get("/teste", (req, res) => {
-  res.status(200).json({ mensagem: "Servidor Funcionou" });
-});
+//app.get("/teste", (req, res) => {
+  //res.status(200).json({ mensagem: "Servidor Funcionou" });
+//});
 
 async function sincronizar() {
   try {
