@@ -9,6 +9,12 @@ const sequelize = require("./src/database/connection.js");
 //Models
 const Models = require('./src/models/QuartoModels.js');
 
+//Router
+const quartoRoutes = require('./src/routes/quartoRotas.js');
+
+//Rotas
+app.use('/quartos', quartoRoutes);
+
 const port = 3000;
 
 app.get("/teste", (req, res) => {
