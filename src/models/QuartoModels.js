@@ -16,7 +16,7 @@ const Quartos = sequelize.define("Quartos", {
     allowNull: false,
     validate: {
       isAlphanumeric: {
-        msg: "Ensira um número válido",
+        msg: "Insira um número válido",
       },
     },
   },
@@ -27,7 +27,7 @@ const Quartos = sequelize.define("Quartos", {
     foreignKey: true,
     validate: {
       isAlphanumeric: {
-        msg: "Ensira um ID válido",
+        msg: "Insira um ID válido",
       },
     },
   },
@@ -37,7 +37,7 @@ const Quartos = sequelize.define("Quartos", {
     allowNull: false,
     validate: {
       isAlphanumeric: {
-        msg: "Ensira o valor em números",
+        msg: "Insira o valor em números",
       },
     },
   },
@@ -46,7 +46,7 @@ const Quartos = sequelize.define("Quartos", {
     type: DataTypes.NUMBER,
     allowNull: false,
     isInt: {
-      msg: "Ensira um andar válido",
+      msg: "Insira um andar válido",
     },
   },
 
