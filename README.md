@@ -107,5 +107,10 @@ $ cd API-Hotel-Quarto
 
 ```
 
+# Tecnologias utilizadas: 
+<p align="center">
+<a href="https://nodejs.org/en/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="40" width="40" /></a> <a href="https://expressjs.com/pt-br/"><img src="https://img.shields.io/badge/Express.js-404D59?style=for-the-badge" height="40" width="40" /></a> <a href="https://insomnia.rest/download"><img src="https://raw.githubusercontent.com/brunoandreotti/biblioteca-backend/79c23c6a4bdd0bc6cb95463ee47741f2226cb0b1/readme/insomnia.svg" height="40" width="40" /></a> <a href="https://sequelize.org"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sequelize/sequelize-original.svg" height="40" width="40" /></a> <a href="https://www.sqlite.org/index.html"><img src="./readme/sqlite-icon.png" height="50" width="50" />
+</p>
+
 **Desenvolvido por <a href="https://www.linkedin.com/in/bruno-andreotti/" > Bruno Andreotti</a>, <a href="https://www.linkedin.com/in/denise-g-oliveira/" > Denise Oliveira </a>, <a href="https://www.linkedin.com/in/heitorschumann/" > Heitor Schumann </a>, <a href="https://www.linkedin.com/in/henrique-ferraz-a46123219/" > Henrique Ferraz </a>, <a href="https://www.linkedin.com/in/murilo-antunes-bb1143228/" > Murilo Antunes </a>.** 
 
