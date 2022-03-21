@@ -51,12 +51,16 @@ const Quartos = sequelize.define("Quartos", {
   },
 
   tamanho: {
-    type: DataTypes.NUMBER,
+    type: DataTypes.INTEGER,
     allowNull: false,
     validate: {
-      len: {
-        args: [20, 35],
-        msg: "Escolha um tamanho entre 20 e 35 metros",
+      min: {
+        args: 15,
+        msg: "Escolha um tamanho entre 15 e 35 metros",
+      },
+      max: {
+        args: 35,
+        msg: "Escolha um tamanho entre 15 e 35 metros",
       },
     },
   },
@@ -65,9 +69,13 @@ const Quartos = sequelize.define("Quartos", {
     type: DataTypes.NUMBER,
     allowNull: false,
     validate: {
-      len: {
-        args: [2, 4],
-        msg: "Escolha a quantidade de camas entre 2 e 4",
+      min: {
+        args: 1,
+        msg: "Escolha a quantidade de camas entre 1 e 4",
+      },
+      max: {
+        args: 4,
+        msg: "Escolha a quantidade de camas entre 1 e 4",
       },
     },
   },
