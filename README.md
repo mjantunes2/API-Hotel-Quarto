@@ -51,12 +51,12 @@ Nesta aplicação é possível cadastrar, listar, atualizar e deletar quartos.
 ```javascript
 {
    "tipoDoQuarto": "luxo",
-	"numQuarto": 2,
-	"idCliente": 3,
-	"valorDiario": 250,
-	"andar": 5,
-    "tamanho": 35,
-    "qntCamas": 4
+   "numQuarto": 2,
+   "idCliente": 3,
+   "valorDiario": 250,
+   "andar": 5,
+   "tamanho": 35,
+   "qntCamas": 4
 }
 ```
 
@@ -65,12 +65,12 @@ Nesta aplicação é possível cadastrar, listar, atualizar e deletar quartos.
 ```javascript
 {
    "tipoDoQuarto": "premium",
-	"numQuarto": 2,
-	"idCliente": 3,
-	"valorDiario": 250,
-	"andar": 5,
-    "tamanho": 35,
-    "qntCamas": 4
+   "numQuarto": 2,
+   "idCliente": 3,
+   "valorDiario": 250,
+   "andar": 5,
+   "tamanho": 35,
+   "qntCamas": 4
 }
 ```
 
@@ -104,4 +104,8 @@ $ git clone https://github.com/mjantunes2/API-Hotel-Quarto
 
 # Acesse a pasta do projeto no terminal
 $ cd API-Hotel-Quarto
- 
+
+```
+
+**Desenvolvido por <a href="https://www.linkedin.com/in/bruno-andreotti/" > Bruno Andreotti</a>, <a href="https://www.linkedin.com/in/denise-g-oliveira/" > Denise Oliveira </a>, <a href="https://www.linkedin.com/in/heitorschumann/" > Heitor Schumann </a>, <a href="https://www.linkedin.com/in/henrique-ferraz-a46123219/" > Henrique Ferraz </a>, <a href="https://www.linkedin.com/in/murilo-antunes-bb1143228/" > Murilo Antunes </a>.** 
+
