@@ -103,7 +103,7 @@ class QuartoController {
     }
 
     try {
-      await quartoModels.destroy({ where: quarto });
+      await QuartoModels.destroy({ where: quarto });
       return res
         .status(200)
         .json({ status: 200, message: "Quarto apagado com sucesso!" });
@@ -146,7 +146,7 @@ class QuartoController {
     };
 
     try {
-      await quartoModels.update(novosDados, { where: quarto });
+      await QuartoModels.update(novosDados, { where: quarto });
       return res
         .status(200)
         .json({ status: 200, message: "Quarto atualizado com sucesso!" });
